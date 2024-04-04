@@ -57,11 +57,10 @@ C-State: Its levels are from C0 to C6, where C6 is the strongest state for the p
 
 #### 11) Can we speed up data transfer in Snowball? How?
 
-**ANS :** Yes, some specific methods for speeding up Snowball are:
+**ANS :** To speed up Snowball transfers:
 
-By simply copying from different hosts to the same Snowball.
-By creating a group of smaller files. This is helpful as it cuts down the encryption issues.
-
+Copy from multiple sources to the same Snowball.
+Group smaller files together. This helps avoid encryption problems and speeds up the process.
 #### 12) How to establish a connection between the Amazon cloud and a corporate data centre?
 
 **ANS :** A VPN (Virtual Private Network) needs to be established between the Virtual private cloud and the organization’s network. Then, the connection can be created, and data can be accessed reliably.        
@@ -77,6 +76,14 @@ By creating a group of smaller files. This is helpful as it cuts down the encryp
 #### 15) If you hold half of the workload on the public cloud whereas the other half is on local storage, what type of architecture is used in such a case?
 
 **ANS :** The hybrid cloud architecture is used in such a case.
+
+**HYbrid Cloud Architecture**
+
+![image](https://github.com/Nachiketa-A/AWS_Interview_Questions/assets/157089767/9ddd2116-8943-4fbd-b394-b4764fa2013c)
+
+![image](https://github.com/Nachiketa-A/AWS_Interview_Questions/assets/157089767/8d1eac8d-9ba9-4e1b-8416-53e8701904ee)
+
+
 
 #### 16) What is a Hypervisor?
 
