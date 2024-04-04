@@ -126,7 +126,127 @@ Answer: B – The Instance tenancy attribute should be set to Dedicated Instance
 
 ![image](https://github.com/Nachiketa-A/AWS_Interview_Questions/assets/157089767/c89b5bf5-c24d-486d-864c-d978e94c3f03)
 
+#### 21) Can you explain the difference between Amazon S3 and EBS?
 
+**ANS :** Amazon S3 is a simple storage service that offers industry-leading scalability, data availability, security, and performance. It can be used to store and retrieve any amount of data, at any time, from anywhere on the web. Amazon EBS, on the other hand, is a block storage service that provides persistent storage for Amazon EC2 instances. EBS allows you to create storage volumes and attach them to EC2 instances, and supports both magnetic and solid-state drive (SSD) volumes.
 
+#### 22) How do you handle data archiving in AWS?
 
+**ANS :** One way to handle data archiving in AWS is to use Amazon S3 Glacier, which is a secure, durable, and extremely low-cost Amazon S3 storage class for data archiving and long-term backup. With S3 Glacier, you can store data at a cost that is as little as 1/10th of one cent per gigabyte per month.
 
+#### 23) What is the purpose of Amazon CloudFront?
+
+**ANS :** Amazon CloudFront is a content delivery network (CDN) that securely delivers data, videos, applications, and APIs to customers globally. It integrates with other Amazon Web Services products to give developers and businesses an easy way to distribute content to end users with low latency, high data transfer speeds, and no minimum usage commitments.
+
+#### 24) Can you explain how Amazon Elastic Block Store (EBS) works?
+
+**ANS :** Amazon EBS provides raw block-level storage of data that can be attached to a running Amazon EC2 instance. Each EBS volume is automatically replicated within its Availability Zone to protect data from the failure of a single drive. EBS volumes can be used as the primary storage for data that requires frequent and granular updates, such as file systems or databases.
+
+#### 25) How do you secure an Amazon S3 bucket?
+
+**ANS :** To secure an Amazon S3 bucket, you can use a combination of the following measures:
+Access control
+Encryption
+Versioning
+Access logging
+
+#### 26) Can you explain the difference between Amazon EC2 and Amazon Elastic Beanstalk?
+
+**ANS :** Amazon EC2 is a web service that provides resizable compute capacity in the cloud, while Amazon Elastic Beanstalk is an easy-to-use service for deploying, running, and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, and Docker.
+
+#### 27) Can you explain the purpose of Amazon Elastic Container Service (ECS)?
+
+**ANS :** Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that makes it easy to run, scale, and secure containerized applications on AWS. It allows you to easily run and scale containerized applications using Docker and Amazon Elastic Container Registry (ECR) images.
+
+#### 28) How do you automate the scaling of Amazon EC2 instances?
+
+**ANS :** To automate the scaling of Amazon EC2 instances, you can use Amazon Auto Scaling. This service allows you to automatically increase or decrease the number of instances in your Auto Scaling group based on predefined policies and metrics.
+
+#### 29) Can you explain the purpose of the Amazon Elastic File System (EFS)?
+
+**ANS :** Amazon Elastic File System (EFS) is a fully managed, scalable, and elastic file storage service for use with Amazon EC2 instances. EFS is designed to provide a simple and highly available file storage service, with a high degree of scalability and performance.
+
+#### 30) How do you handle disaster recovery in AWS?
+
+**ANS:** To handle disaster recovery in AWS, you can use a combination of services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon Elastic Block Store (EBS) snapshots. You can use these services to create backups and replicas of your data and resources.
+
+#### 31) Can you explain the difference between Amazon RDS and DynamoDB?
+
+**ANS:** Amazon RDS is a fully managed relational database service that makes it easy to set up, operate, and scale a relational database in the cloud. It supports a variety of database engines, including MySQL, PostgreSQL, Oracle, and SQL Server.
+On the other hand, Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability
+
+#### 32) How do you handle backups in AWS?
+
+**ANS:** To handle backups in AWS, you can use a combination of services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon Elastic Block Store (EBS) snapshots. These services allow you to create backups and replicas of your data and resources, and then use these backups to recover your applications and data in the event of a failure.
+
+#### 33) Can you explain the purpose of Amazon Elastic MapReduce (EMR)?
+
+**ANS:** Amazon Elastic MapReduce (EMR) is a fully managed service that makes it easy to process large amounts of data using the popular Apache Hadoop and Apache Spark frameworks.
+
+#### 34) How do you monitor resources and applications in AWS?
+
+**ANS:** To monitor resources and applications in AWS, you can use a combination of services such as Amazon CloudWatch, AWS CloudTrail, and Amazon CloudWatch Logs. These services allow you to collect and monitor various metrics and logs related to your resources and applications.
+
+#### 35)Can you explain the purpose of Amazon Simple Queue Service (SQS)?
+
+**ANS :** Amazon Simple Queue Service (SQS) is a fully managed message queuing service that makes it easy to decouple and scale microservices, distributed systems, and serverless applications. SQS allows you to send,
+
+#### 36)How do you handle security in AWS?
+
+**ANS:** To handle security in AWS, you can use a combination of services such as Amazon Identity and Access Management (IAM), Amazon Virtual Private Cloud (VPC), and AWS Key Management Service (KMS).
+
+#### 37) Can you explain the purpose of Amazon Simple Notification Service (SNS)?
+
+**ANS:** Amazon Simple Notification Service (SNS) is a fully managed messaging service that makes it easy to send and receive messages between applications and services. SNS allows you to send messages to multiple subscribers at once, including via email, SMS, and other protocols.
+
+#### 38)How do you handle compliance in AWS?
+
+**ANS:** To handle compliance in AWS, you can use a combination of services such as AWS Config and AWS Control Tower. These services allow you to monitor and evaluate your resources against a set of predefined policies and guidelines and provide you with the tools and resources you need to meet compliance requirements such as HIPAA, SOC 2, and PCI DSS.
+
+#### 39) Can you explain the purpose of Amazon Simple Email Service (SES)?
+
+**ANS:** Amazon Simple Email Service (SES) is a fully managed email service that allows you to send and receive emails at scale. With SES, you can send emails to your customers, subscribers, and other contacts using a simple and reliable API, or through the AWS Management Console.
+
+#### 40)How do you handle data migration in AWS?
+
+**ANS:** To handle data migration in AWS, you can use a combination of services such as AWS DataSync, AWS Database Migration Service (DMS), and AWS Snowball. These services allow you to easily transfer data between on-premises and cloud environments, and to migrate data between different databases and storage services. Additionally, you can use services such as AWS Direct Connect and Amazon S3 Transfer Acceleration to optimize the transfer of large amounts of data.
+
+#### 41) Can you explain the purpose of Amazon Elasticsearch Service?
+
+**ANS:** Amazon Elasticsearch Service is a fully managed service that makes it easy to deploy, operate, and scale Elasticsearch clusters in the AWS cloud. It allows you to index, search, and analyze large volumes of data quickly and in near real time.
+
+#### 42)How do you handle network traffic in AWS?
+
+**ANS:** To handle network traffic in AWS, you can use a combination of services such as Amazon Virtual Private Cloud (VPC), Amazon Elastic Load Balancing (ELB), and Amazon Route 53. These services allow you to securely and efficiently route and manage network traffic within your AWS environment.
+
+#### 43)Can you explain the purpose of the Amazon Elastic Transcoder?
+
+**ANS:** Amazon Elastic Transcoder is a fully managed service that makes it easy to create and convert video files into multiple formats. It allows you to convert existing video files into different resolutions and bit rates, so that they can be played on a variety of devices, such as smartphones, tablets, and smart TVs.
+
+#### 44)How do you handle cost optimization in AWS?
+
+**ANS:** To handle cost optimization in AWS, you can use a combination of services such as AWS Cost Explorer, AWS Trusted Advisor, and AWS Budgets. These services allow you to monitor and control your costs, identify opportunities for cost savings, and set budgets for your resources.
+
+#### 45)Can you explain the purpose of Amazon Kinesis?
+
+**ANS:** Amazon Kinesis is a fully managed service that makes it easy to collect, process, and analyze real-time streaming data. It allows you to easily ingest and process data streams, such as log files, sensor data, and social media feeds, and then analyze and visualize the data using services such as Amazon Redshift, Amazon Elasticsearch Service, and Amazon QuickSight.
+
+#### 46)How do you handle multi-region deployments in AWS?
+
+**ANS:** To handle multi-region deployments in AWS, you can use a combination of services such as Amazon Route 53, Amazon CloudFront, and Amazon Elastic Block Store (EBS). These services allow you to route traffic to the optimal region, distribute content globally, and replicate data across multiple regions for high availability and disaster recovery.
+
+#### 47)Can you explain the purpose of Amazon AppStream?
+
+**ANS:** Amazon AppStream is a fully managed service that allows you to stream desktop applications from the cloud to any device. It allows you to easily run your existing applications on a variety of devices, such as laptops, tablets, and smartphones, without the need to re-architect your applications or make changes to the underlying infrastructure.
+
+#### 48)How do you handle integration with on-premises infrastructure in AWS?
+
+**ANS:** To handle integration with on-premises infrastructure in AWS, you can use a combination of services such as AWS Direct Connect, AWS VPN, and AWS Storage Gateway. These services allow you to create dedicated connections between your on-premises infrastructure and your AWS environment, and to easily transfer data and resources between the two environments.
+
+#### 49) Can you explain the purpose of Amazon WorkSpaces?
+
+**ANS:** Amazon WorkSpaces is a fully managed, secure desktop computing service that runs on the AWS cloud. It allows you to easily provision cloud-based virtual desktops to your users and provides them with access to their applications and data from any device.
+
+#### 50)How do you handle data encryption in AWS?
+
+**ANS:** To handle data encryption in AWS, you can use a combination of services such as AWS Key Management Service (KMS), Amazon Elastic Block Store (EBS) encryption, and Amazon S3 encryption. These services allow you to encrypt your data at rest and in transit, and to manage and control access to your encryption keys.
