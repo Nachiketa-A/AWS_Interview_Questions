@@ -19,13 +19,11 @@
 **ANS :** Spot Instances are unused computing capacity blocks released by AWS when EC2 instances are created.
 On-Demand Instances are virtual servers in the AWS EC2 used while testing and developing applications on EC2.
 
-![image](https://github.com/Nachiketa-A/AWS_Interview_Questions/assets/157089767/ca05a6a5-d1a9-4bc6-8a96-e866ddc90564)
 
 #### 4) Name the Instances types for which the Multi AZ-deployments are available?
 
 **ANS :** The Multi-AZ deployments are available for all the instances irrespective of their types and use.
 
-![image](https://github.com/Nachiketa-A/AWS_Interview_Questions/assets/157089767/e7597f27-9125-418c-8e7b-bb58c36b49a7)
 
 #### 5) Which instance can we use for deploying a 4-node cluster of Hadoop in AWS?
 
@@ -56,8 +54,6 @@ C-State: Its levels are from C0 to C6, where C6 is the strongest state for the p
 
 **ANS :** Yes, the Amazon CloudFront helps you in supporting through the origins of the custom. It may also include the origin that comes from outside of AWS.
 
-
-![image](https://github.com/Nachiketa-A/AWS_Interview_Questions/assets/157089767/afdcc36d-ea75-4f2c-bdf1-02ff6af83005)
 
 #### 11) Can we speed up data transfer in Snowball? How?
 
