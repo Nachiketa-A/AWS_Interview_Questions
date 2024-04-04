@@ -31,7 +31,7 @@ On-Demand Instances are virtual servers in the AWS EC2 used while testing and de
 
 #### 6) What do you know about an AMI?
 
-**ANS :** AMI is a template that provides information required to launch an instance or virtual machine. It is possible to select pre-built AMI’s that AMI commonly have in them while creating an instance. Also, a user can have customized AMI for the most common reason of saving space on AWS.
+**ANS :** An AMI is like a blueprint for setting up a virtual machine or instance in a cloud environment, like AWS. You can choose from ready-made AMIs that come with standard configurations when creating your instance. Or, you can create your own customized AMI, which is handy for saving storage space on AWS.
 
 ![image](https://github.com/Nachiketa-A/AWS_Interview_Questions/assets/157089767/ba9524be-2a43-4a1f-b1c3-42b7de93b525)
 
@@ -48,7 +48,7 @@ C-State: Its levels are from C0 to C6, where C6 is the strongest state for the p
 
 #### 9) What is the use of making the subnets?
 
-**ANS :** To efficiently utilize networks that have given a large number of hosts. You can assume that many networks come with a large number of hosts. For easy access, the network is divided into subnets. This will help in managing the hosts and getting them into a more straightforward form.
+**ANS :** When you have lots of devices connected to a network, it can get messy. So, to organize things better, we split the network into smaller parts called subnets. Each subnet contains a manageable number of devices, making it easier to control and access them. This helps keep everything neat and tidy.
 
 #### 10) Can you use the Amazon cloud front in directing the transfer objects?
 
