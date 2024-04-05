@@ -232,7 +232,7 @@ On the other hand, Amazon DynamoDB is a fully managed NoSQL database service tha
 
 #### 45)Can you explain the purpose of Amazon Kinesis?
 
-**ANS:** Amazon Kinesis is a fully managed service that makes it easy to collect, process, and analyze real-time streaming data. It allows you to easily ingest and process data streams, such as log files, sensor data, and social media feeds, and then analyze and visualize the data using services such as Amazon Redshift, Amazon Elasticsearch Service, and Amazon QuickSight.
+**ANS:** Amazon Kinesis is like a super-smart system that helps you gather, sort, and understand data that's constantly streaming in real-time. It can handle all sorts of data like logs, sensor readings, and social media updates. Once it's organized, you can use other Amazon services to study and visualize the data however you want.
 
 #### 46)How do you handle multi-region deployments in AWS?
 
