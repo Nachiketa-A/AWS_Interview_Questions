@@ -240,7 +240,7 @@ On the other hand, Amazon DynamoDB is a fully managed NoSQL database service tha
 
 #### 47)Can you explain the purpose of Amazon AppStream?
 
-**ANS:** Amazon AppStream is a fully managed service that allows you to stream desktop applications from the cloud to any device. It allows you to easily run your existing applications on a variety of devices, such as laptops, tablets, and smartphones, without the need to re-architect your applications or make changes to the underlying infrastructure.
+**ANS:** Amazon AppStream is like a magic portal that lets you use computer programs from the internet on any gadget you have, whether it's a laptop, tablet, or phone. You don't have to change anything about the programs or the way they work. Just open the portal and start using your favorite apps!
 
 #### 48)How do you handle integration with on-premises infrastructure in AWS?
 
